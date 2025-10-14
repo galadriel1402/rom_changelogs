@@ -1,0 +1,9 @@
+AxionAOSP 2.1 (sweet) | Android 16
+Updated: 15/10/2025
+- Drop so many non-sense commits
+- Drop LiveDisplay
+- Drop XiaomiParts (eg. Per-App Refreshrates, Thermal Profiles)
+- Drop ViPER4Android FX (there's a module for it so...)
+- Build DisplayFeatures
+- Add support for KProfiles (experimental)
+- More various improvements...

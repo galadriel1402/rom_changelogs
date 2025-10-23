@@ -1,0 +1,20 @@
+Yet Another AOSP Project (sweet) | Android 16
+Build Date: 10/23/2025
+- Cleanup trees (drop so many commits that doesn't really take effects)
+- Disable ZRAM writeback
+- Drop SuSFS in Kernel-side
+- Drop TARGET_USES_ION
+- Drop XiaomiParts (e.g Per-App Refreshrate, Thermal Profiles)
+- Add support for KProfiles (experimental)
+- Add support for BuildDisplayFeatures (e.g Anti Flicker, HBM, FPS Overlay)
+- Add feature flag for IPSEC_TUNNEL_MIGRATION
+- powerhint: Adjust powerhint for smoother UI performance
+- powerhint: Bump TASchedtuneBoost value to 50
+- rro_overlay: Remove unused config_speed_up_audio_on_mt_calls
+- properties: Enable support for kernel idle timer
+- properties: Disable backpressure propagation in SF
+- properties: Disable sf EGL image tracking
+- properties: Explicitly disable "Enable GL comp backpressure"
+- audio: Add wired headset mic source for voip_tx
+- audio: extend buffer size to 256kb for offload playback
+- More various improvements...
